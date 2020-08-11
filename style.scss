@@ -1,0 +1,21 @@
+.videoZone {
+    position: relative;
+    width: 642px;
+    height: 482px;
+    margin: 20px auto;
+    #localStream {
+        width: 100%;
+        height: 100%;
+        border: 1px solid black;
+    }
+    #remoteStream {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 201px;
+        height: 152px;
+    }
+}
+.form-group {
+    margin: 10px auto;
+}
